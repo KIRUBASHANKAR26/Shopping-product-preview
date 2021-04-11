@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    max-height:100vh ;
+    padding: 10%;
+    font-family: 'Montserrat', sans-serif;
+}
+#product{
+    display: flex;
+    gap: 2em;
+}
+.left-column{
+    flex: 30%;
+}
+.left-column img{
+    width: 100%;
+    max-width: 500px;
+}
+.right-column{
+    flex: 60%;
+}
+.right-column * {
+    margin-bottom: 1.5rem;
+}
+.product-preview > div img{
+    width: 100px;
+    margin-right: 1rem;
+    padding: 4px;
+}
+.right-column h1{
+    font-size: 44px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+.right-column h4{
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+h3{
+    font-size: 20px;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+p{
+    font-weight: 200;
+    letter-spacing: 1px;
+    color: gray;
+}
+.active{
+    border: 2px solid #009688;
+    border-radius: 4px;
+}
+button{
+    padding: 1.5rem 3rem;
+    background-color:#009688 ;
+    color: #fff;
+    font-weight: 300;
+    line-height: 1px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    font-size: 20px;
+}
