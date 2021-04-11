@@ -85,23 +85,23 @@ rightColumn.appendChild(button);
 function changeImage(){
     img1.addEventListener("click", function() {
         productImg.src =  "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7579188/2018/11/5/08a7b230-ee8f-46c0-a945-4e835a3c01c01541402833619-United-Colors-of-Benetton-Men-Sweatshirts-1271541402833444-1.jpg";
-        img1.classList.add('active');
+ 
     });
     img2.addEventListener("click", function() {
         productImg.src =  "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7579188/2018/11/5/efc3d5b9-1bb3-4427-af53-7acae7af98951541402833591-United-Colors-of-Benetton-Men-Sweatshirts-1271541402833444-2.jpg";
-        img2.classList.add('active');
+
     });
     img3.addEventListener("click", function() {
         productImg.src =  "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7579188/2018/11/5/c7e58861-3431-4189-9903-9880f5eebd181541402833566-United-Colors-of-Benetton-Men-Sweatshirts-1271541402833444-3.jpg";
-        img3.classList.add('active');
+
     });
     img4.addEventListener("click", function() {
         productImg.src =  "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7579188/2018/11/5/66490b64-32de-44b4-a6e4-fe36f1c040051541402833548-United-Colors-of-Benetton-Men-Sweatshirts-1271541402833444-4.jpg";
-        img4.classList.add('active');
+
     });
     img5.addEventListener("click", function() {
         productImg.src =  "https://assets.myntassets.com/h_1440,q_100,w_1080/v1/assets/images/7579188/2018/11/5/957be784-7c5d-4e90-ab9f-0928015b22891541402833645-United-Colors-of-Benetton-Men-Sweatshirts-1271541402833444-5.jpg";
-        img5.classList.add('active');
+
     });
 }
 changeImage();
